@@ -1,0 +1,28 @@
+#photoDiv {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#faceAreasUl {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.faceAreaLi {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: none;
+  position: absolute;
+  border: solid 2px red;
+  text-align: center;
+}
+
+.faceLabelSpan {
+  color: white;
+  text-shadow: 0 0 3px black;
+  font-size: 30px;
+}
