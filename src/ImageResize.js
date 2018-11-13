@@ -10,14 +10,12 @@ export default class ImageResize {
       var width = image.width,
           height = image.height;
       if(width > maxWidth) {
-        var ratio = maxWidth / width;
-        width = Math.round(width * ratio);
-        height = Math.round(height * ratio);
+        width = maxWidth;
+        height = Math.round(height * maxWidth / width);
       }
       if(height > maxHeight) {
-        var ratio = maxHeight / height;
-        width = Math.round(width * ratio);
-        height = Math.round(height * ratio);
+        width = Math.round(width * maxHeight / height);
+        height = maxHeight;
       }
 
       var canvas = $("<canvas />")

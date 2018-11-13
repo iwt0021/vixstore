@@ -13,7 +13,9 @@
         "react-onsenui": "^1.11.1",
         "cordova-plugin-camera": "4.0.1",
         "cordova-plugin-contacts": "3.0.1",
-        "cordova-plugin-file-transfer": "1.7.0"
+        "cordova-plugin-file-transfer": "1.7.0",
+        "cordova-plugin-file": "5.0.0",
+        "cordova-plugin-inappbrowser": "2.0.1"
     },
     "scripts": {
         "monaca:preview": "npm run dev & npm run watch",
@@ -31,7 +33,9 @@
             "monaca-plugin-monaca-core": {},
             "cordova-plugin-camera": {},
             "cordova-plugin-contacts": {},
-            "cordova-plugin-file-transfer": {}
+            "cordova-plugin-file-transfer": {},
+            "cordova-plugin-file": {},
+            "cordova-plugin-inappbrowser": {}
         }
     },
     "devDependencies": {
